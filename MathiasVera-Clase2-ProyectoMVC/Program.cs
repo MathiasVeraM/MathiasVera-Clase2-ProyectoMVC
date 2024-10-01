@@ -15,6 +15,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+// Test - Cambio para la rama test
+
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
